@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Conway_Game.dir/main.cpp.o CMakeFiles/Conway_Game.dir/Cell.cpp.o CMakeFiles/Conway_Game.dir/Life.cpp.o -o Conway_Game 

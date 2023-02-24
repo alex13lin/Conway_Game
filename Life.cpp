@@ -56,4 +56,9 @@ namespace Conway {
         if (i >= 0 && j >= 0 && i < _height && j < _width)
             _map[i][j].set_state_alive();
     }
+
+    void Life::delete_cells() {
+        for (int i = 0; i < _height; i++)delete[] _map[i];
+        delete[] _map;
+    }
 } // Conway

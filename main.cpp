@@ -6,10 +6,12 @@ int main() {
     life.set_cell_state_alive(1, 2);
     life.set_cell_state_alive(2, 2);
     life.set_cell_state_alive(3, 2);
-    while (true) {
+    int a = 0;
+    while (a < 30) {
         life.run();
-        sleep(1.5);
+        sleep(1);
+        a++;
     }
-
+    life.delete_cells();
     return 0;
 }

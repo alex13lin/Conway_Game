@@ -17,6 +17,8 @@ namespace Conway {
 
         void set_cell_state_alive(int, int);
 
+        void delete_cells();
+
     private:
         Cell **_map;
         int _height, _width;
